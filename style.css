@@ -1,0 +1,399 @@
+/* 
+Colors:
+Yellow: #F8E035
+Green: #38CB73
+Blue: #47A7F3
+Lightblack: #444444
+Lightred: #F7625E
+
+*/
+
+* {
+    font-family: 'Karla', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.top-nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-nav ul {
+    margin: 0;
+    list-style: none;
+    display: inline;
+    position: absolute;
+    top: 10px;
+    left: 55%;
+    width: 45%;
+}
+
+.top-nav h3 {
+    display: inline;
+    float: left;
+    margin: 0;
+    position: absolute;
+    left: 5%;
+    top: -30px;
+}
+
+.top-nav li {
+    float: left;
+    margin-right: 3.2%;
+    font-size: 0.9em;
+}
+
+/* --------------- YELLOW BOX --------------- */
+
+.yellow-box {
+    width: 90%;
+    background-color: #F8E035;
+    position: absolute;
+    left: 4.95%;
+    top: 70px;
+    height: 306px;
+}
+
+.yellow-box h1 {
+    width: 59.5%;
+    position: absolute;
+    top: 65px;
+    left: 20%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.yellow-box h1 span {
+    font-weight: 700;
+}
+
+.heart-icon {
+    font-size: 3em;
+    position: absolute;
+    bottom: 10px;
+    right: 3%;
+}
+
+.box-table {
+    width: 90%;
+    height: 305px;
+    position: absolute;
+    left: 5%;
+    top: 376px;
+    border-collapse: collapse;
+}
+
+.box-table tr,
+.box-table td {
+    border: none;
+    margin: 0;
+    color: #f5f5f5;
+}
+
+.first-row td:nth-child(1) {
+    background: rgb(240, 240, 240);
+    width: 50%;
+    color: #111;
+}
+
+.first-row td:nth-child(1) h2 {
+    position: absolute;
+    top: 8px;
+    margin: 0;
+    left: 3%;
+    font-size: 2em;
+}
+
+.first-row td:nth-child(2) {
+    background: #38CB73;
+    width: 25%;
+}
+
+.first-row td:nth-child(2) span,
+.second-row td:nth-child(2) span,
+.second-row td:nth-child(3) span,
+.second-row td:nth-child(4) span {
+    display: block;
+    font-weight: 700;
+}
+
+.first-row td:nth-child(2) p,
+.second-row td:nth-child(2) p,
+.second-row td:nth-child(3) p,
+.second-row td:nth-child(4) p {
+    margin: 0 6%;
+}
+
+.first-row {
+    height: 170px;
+}
+
+.second-row {
+    height: 165px;
+}
+.first-row td:nth-child(3) {
+    background: rgba(56, 203, 115, 0.59);
+    width: 25%;
+}
+
+.second-row td:nth-child(1) {
+    background: rgba(0, 0, 0, 0.54);
+    width: 25%;
+}
+
+.second-row td:nth-child(2) {
+    background: #000;
+    width: 25%;
+}
+
+.second-row td:nth-child(3) {
+    background: #F7625E;
+    width: 25%;
+}
+
+.second-row td:nth-child(4) {
+    background: #47A7F3;
+    width: 25%;
+}
+
+.box-table .find-out {
+    font-size: 0.8em;
+    width: 16.5%;
+    border-bottom: 2px solid #F8E035;
+}
+
+/* --------------------- OUR APPROACH SECTION ------------------- */
+
+.approach {
+    width: 90%;
+    height: 701px;
+    clear: both;
+    position: relative;
+    top: 701px;
+    
+}
+
+.appr-box {
+    width: 50.7%;
+    height: 90px;
+    background-color: blue;
+    position: absolute;
+    top: -87.9px;
+    left: 30.25%;
+    color: #f5f5f5;
+    background-color: #F8E035;
+}
+
+.appr-box h1 {
+    font-size: 2em;
+    position: absolute;
+    left: 3%;
+}
+
+.appr-comment {
+    width: 75%;
+    height: 40px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 30.25%;
+    color: #F7625E;
+    background-color: #F8E035;
+}
+
+.appr-comment p {
+    position: absolute;
+    left: 2%;
+    top: -8px;
+}
+
+.appr-paras {
+    width: 60%;
+    position: absolute;
+    top: 100px;
+    left: 31.25%;
+}
+
+.left-box {
+    float: left;
+    width: 50%;
+    height: 250px;
+    background-color: #F7625E;
+    color: #f5f5f5;
+    position: absolute;
+    top: 375px;
+    left: 5%;
+}
+
+.right-box {
+    float: right;
+    width: 50%;
+    height: 250px;
+    background-color: #38CB73;
+    color: #f5f5f5;
+    position: absolute;
+    top: 375px;
+    left: 55%;
+}
+
+.left-box h4,
+.right-box h4 {
+    font-size: 1.5em;
+    margin-left: 3.5%;
+}
+
+.left-box p,
+.right-box p {
+    margin-left: 3.5%;
+}
+
+.right-box span {
+    color: #F8E035;
+}
+
+/* --------------- LAST PAGE SECTION ----------------- */
+
+.last-page {
+    width: 90%;
+    height: 400px;
+    background-color: black;
+    color: #f5f5f5;
+    position: relative;
+    top: 605px;
+    left: 4.5%;
+}
+
+.our-clients {
+    width: 60%;
+    position: absolute;
+    left: 3%;
+}
+
+.our-clients h1 {
+    position: absolute;
+    top: 25px;
+    font-size: 2em;
+}
+
+.our-clients .dots {
+    position: absolute;
+    top: 85px;
+    font-size: 1.4em;
+}
+
+.dots h3 {
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+}
+
+h3:nth-child(1) {
+    margin-top: 40px;
+}
+
+
+
+.yellow {
+    color: #F8E035;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.green {
+    color: #38CB73;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.blue {
+    color: #47A7F3;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.red {
+    color: #F7625E;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+/* ------------- TALK TO US ------------- */
+
+.talk-us {
+    width: 90%;
+    height: 310px;
+    position: relative;
+    clear: both;
+    top: 670px;
+    left: 4.5%;
+}
+
+.talk-us td {
+    width: 23%;
+}
+
+.talk-us tr,
+.talk-us td !important {
+    border-collapse: collapse;
+    border: none;
+}
+
+.talk-us h4 {
+    font-size: 1.3em;
+    margin-left: 5%;
+}
+
+.talk-us h1 {
+    font-size: 2em;
+    margin-left: 5%;
+}
+
+Yellow: #F8E035
+Green: #38CB73
+Blue: #47A7F3
+Lightblack: #444444
+Lightred: #F7625E
+
+.talk-us .talk-tab {
+    margin: 0;
+    width: 100%;
+}
+
+.talk-us .row-one td:nth-child(1) {
+    background-color: #f5f5f5;
+    color: #222;
+    width: 19.8%;
+    height: 130px;
+}
+
+.talk-us .row-one td:nth-child(2) {
+    background-color: #F7625E;
+    color: #f5f5f5;
+    
+}
+
+.talk-us .row-two td:nth-child(1) {
+    background-color: #47A7F3;
+    color: #f5f5f5;
+}
+
+.talk-us .row-two td:nth-child(2) {
+    background-color: #222;
+    color: #f5f5f5;
+    
+}
+
+.talk-us .row-three td:nth-child(1) {
+    background-color: #38CB73;
+    color: #f5f5f5;
+}
+
+.talk-us .row-three td:nth-child(2) {
+    background-color: #F8E035;
+    color: #f5f5f5;
+}
